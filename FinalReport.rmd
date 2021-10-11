@@ -68,6 +68,15 @@ More than 65% of whites and other races favor capital punishment while more than
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The p value of 0.2751 suggests that there is very little difference between other races and whites since they both favor capital punishment. 
+
+The p value of 0.001598 suggests that race and attitude towards capital punishment is realted, therefore, we reject the null hypothesis. 
 
 # Discussion and Conclusion
 
